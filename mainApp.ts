@@ -9,5 +9,7 @@ export const mainApp = (app: Application) => {
         });
       } catch (error) {}
     });
-  } catch (error) {}
+  } catch (error) {
+    console.log("Error in setting up the routes");
+  }
 };
